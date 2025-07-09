@@ -1,6 +1,7 @@
 # Sistema PDV - Ponto de Venda
 
 Sistema de ERP web desenvolvido em Java com Spring Framework para gerenciamento de vendas, estoque e fluxo financeiro.
+LINK: https://docs.google.com/document/d/1efwbYVVGm655eXBrEcOuGllOmrqY9QzbYiWGOwLyaIE/edit?usp=sharing / https://docs.google.com/document/d/1rs_UBi1UBgDSyb6PbHLxcFapppIsO6QqEB6QhDqJ10Y/edit?usp=sharing
 
 ## 📊 Status Atual - Entrega 2 (9/Julho 2025)
 
