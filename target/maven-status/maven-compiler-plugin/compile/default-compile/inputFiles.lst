@@ -1,220 +1,220 @@
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/xml/nfe/ConversorXmlNfe.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Estado.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/PermissoesService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Pessoa.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/ModBcIcms.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/TributacaoRegraService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/TransferenciaController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/TituloRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Caixa.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/TributacaoController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/cartao/MaquinaCartaoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/TributacaoRegra.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Telefone.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Usuario.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/EnderecoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/TelefoneTipo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/relatorios/GerarRelatorio.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/HomeController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/PessoaRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/cartao/CartaoLancamento.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/GrupoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/notafiscal/FreteTipoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/EmpresaRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/ProdutoController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/PermissoesRespository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/RecebimentoController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/notafiscal/ModBcIcmsService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/NotaFiscal.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/TributacaoRegraController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/UsuarioController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/cartao/CartaoLancamentoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/relatorios/VendaRelatorioController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/filter/BancoFilter.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/TituloService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/notafiscal/NotaFiscalFinalidadeRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/GrupoUsuario.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/TituloTipoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/utilitarios/ConexaoJDBC.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/filter/PessoaFilter.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/CstService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/RecebimentoParcelaService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/RecebimentoParcela.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/PagarParcela.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/CfopService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/RecebimentoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/EntradaSaida.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/NotaFiscalTotais.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Receber.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/RecebimentoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/cartao/MaquinaCartao.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/PessoaService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Categoria.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/TipoAmbiente.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/xml/nfe/GeraXmlNfe.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/CidadeService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/FornecedorService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/EmpresaParametro.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/filter/ClienteFilter.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/CidadeRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/security/LoginUserDatailsService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/produto/ProdutoBalanca.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/cartao/CartaoTipo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/filter/PagarParcelaFilter.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/notafiscal/NotaFiscalFinalidadeServer.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/singleton/Aplicacao.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Recebimento.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/GrupoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/PessoaTipo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/PessoaController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/ParcelaService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Fornecedor.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/CartaoLancamentoController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/VendaProduto.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/TituloTipo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/CstCsosnRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/RegimeTributario.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/AjusteController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/TituloTipo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/FreteTipo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/PagarTipoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/TributacaoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/AjusteProdutoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Grupo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/relatorios/CaixaRelatorioController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/cartao/MaquinaCartaoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/CstRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/notafiscal/NotaFiscalItemImpostoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/CaixaLancamento.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/TituloController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/PagarParcelaRespository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/notafiscal/ModBcIcmsRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/CfopRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/cartao/CartaoSituacao.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/xml/nfe/TesteAssinatura.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/TributacaoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/AjusteRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/PagarParcelaService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/VendaProdutosRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/VendaService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Produto.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/GrupoUsuarioRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/EnderecoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/UsuarioService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/TelefoneRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Permissoes.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/RegimeTributarioRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Cidade.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/xml/nfe/AssinaXML.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/CategoriaService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/GrupoUsuarioController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/cartao/CartaoLancamentoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/BancoController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/caixa/TipoLancamento.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/EmpresaController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/AjusteService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/RegimeTributarioService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/ajuste/AjusteStatus.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/EnumeradoTitulos.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/FornecedorRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/EmpresaParametrosRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/CaixaController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/PagarRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/VendaSituacao.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/ParcelaRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/caixa/CaixaTipo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/RecebimentoParcelaRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/PagamentoTipoController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/utilitarios/DataAtual.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/GrupoUsuarioService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/TipoAmbienteServer.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/CaixaLancamentoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/TransferenciaRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/NotaFiscalController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/TipoAmbienteRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/ReceberController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/notafiscal/NotaFiscalTotaisRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/CstCsosn.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Titulo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/VendaController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Empresa.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/EstadoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/NotaFiscalFinalidade.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/AjusteProdutoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/VendaRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/ImagemProdutoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/filter/ProdutoFilter.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/notafiscal/NotaFiscalService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/ProdutoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/EstadoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/PagamentoTipo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/UsuarioRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/CategoriaController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/TelefoneService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Ajuste.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/Ativo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/ImagemProduto.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/TributacaoRegraRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/CaixaRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/VendaProdutoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/PagarTipoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/ProdutoEstoque.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Cst.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/notafiscal/NotaFiscalTipo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/PagarTipo.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/PagarController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/TituloTipoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/EmpresaService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/TransferenciaService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/notafiscal/NotaFiscalItemImpostoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/filter/ReceberFilter.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/CstCsosnService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/RelatorioController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/produto/ProdutoControleEstoque.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Parcela.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Endereco.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/filter/ParcelaFilter.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/notafiscal/NotaFiscalTotaisServer.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/ImagemProdutoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/NotaFiscalItemImposto.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/caixa/EstiloLancamento.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/EmpresaParametrosService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Pais.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/AjusteProduto.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/ImagemProdutoController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Venda.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/NotaFiscalItem.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/ProdutoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/produto/ProdutoSubstTributaria.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/CaixaService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/PagamentoTipoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/PagarService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Tributacao.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/PdvApplication.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/security/SecurityConfig.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/notafiscal/FreteTipoRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Transferencia.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/filter/FornecedorFilter.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/CaixaLancamentoService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/filter/AjusteFilter.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/security/UsuarioSistema.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/ReceberRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/notafiscal/NotaFiscalItemRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/CFOP.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/NotaFiscalItemController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/ReceberService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/FornecedorController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/notafiscal/NotaFiscalItemService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/CstIPI.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/enumerado/produto/ProdutoVendavel.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/PagamentoTipoRespository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/notafiscal/CstIpiRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/service/notafiscal/CstIpiService.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/filter/VendaFilter.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/GrupoController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/controller/MaquinaCartaoController.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/notafiscal/NotaFiscalRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/filter/CartaoFilter.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/repository/CategoriaRepository.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/model/Pagar.java
-/Users/brunomello/Faculdade/trabalho-404-nome-do-grupo-not-found/src/main/java/net/originmobi/pdv/filter/CaixaFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\TributacaoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\EstadoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\relatorios\CaixaRelatorioController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\GrupoUsuarioService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\Ativo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\TituloTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\RecebimentoParcelaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CidadeRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Endereco.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\ModBcIcmsService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\RecebimentoParcela.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\PessoaTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\NotaFiscalItemImpostoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\ModBcIcms.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\GrupoUsuarioController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\PessoaController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\ReceberFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\TituloService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\ProdutoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\FornecedorService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\NotaFiscalTotaisServer.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\CartaoFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\RecebimentoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CaixaLancamentoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\PessoaFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\PagarTipoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\ProdutoEstoque.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\CaixaFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\PagamentoTipoRespository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CategoriaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\ImagemProduto.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\PdvApplication.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\ReceberService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TipoAmbienteRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\produto\ProdutoBalanca.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Titulo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\RecebimentoParcelaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\VendaProdutosRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\EnumeradoTitulos.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\NotaFiscalItemRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\PagarParcelaFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\EmpresaParametrosService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\utilitarios\ConexaoJDBC.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\xml\nfe\AssinaXML.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Parcela.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\cartao\CartaoSituacao.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TelefoneRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CategoriaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\UsuarioRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\ProdutoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\RecebimentoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\ModBcIcmsRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\RelatorioController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\NotaFiscalController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\xml\nfe\TesteAssinatura.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\PagarTipoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\xml\nfe\GeraXmlNfe.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\produto\ProdutoVendavel.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CaixaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CaixaLancamentoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Pessoa.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\relatorios\GerarRelatorio.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\AjusteProdutoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\ImagemProdutoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\CstIPI.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\UsuarioService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\GrupoUsuarioRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Cidade.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\FreteTipoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\CategoriaController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\CaixaController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\ReceberController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TituloRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\PagarParcela.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\MaquinaCartaoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\TelefoneService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\EmpresaParametrosRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\PessoaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\TituloTipoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Telefone.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\cartao\CartaoLancamento.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Grupo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\VendaProdutoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\NotaFiscalTotais.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\cartao\MaquinaCartaoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\NotaFiscalTotaisRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\NotaFiscalItem.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\EstadoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\TributacaoRegraController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\VendaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Permissoes.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CstRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\ParcelaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\security\SecurityConfig.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\FreteTipoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Caixa.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Categoria.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\caixa\EstiloLancamento.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\notafiscal\NotaFiscalTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\singleton\Aplicacao.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\VendaSituacao.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CidadeService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\TipoAmbiente.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\caixa\CaixaTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\CstCsosn.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\caixa\TipoLancamento.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\AjusteRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\EmpresaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\PagarParcelaRespository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\TributacaoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TributacaoRegraRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\ClienteFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\ImagemProdutoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\EntradaSaida.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\PagarService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\cartao\MaquinaCartao.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\TituloController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\EmpresaParametro.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\CFOP.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\ReceberRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\FreteTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\PagamentoTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\GrupoUsuario.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CaixaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Pagar.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\TributacaoRegra.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\AjusteController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Transferencia.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\CstIpiRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\TributacaoRegraService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\NotaFiscalFinalidadeRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\EnderecoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\NotaFiscalFinalidadeServer.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\RegimeTributarioService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\GrupoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\RegimeTributarioRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\produto\ProdutoSubstTributaria.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\FornecedorController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\cartao\CartaoLancamentoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\ParcelaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CfopService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\BancoFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\cartao\CartaoLancamentoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\NotaFiscalItemService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\GrupoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\PagarRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\NotaFiscal.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\CaixaLancamento.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Fornecedor.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\cartao\CartaoTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\produto\ProdutoControleEstoque.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\NotaFiscalItemImposto.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TituloTipoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\NotaFiscalService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\ProdutoFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\security\UsuarioSistema.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TransferenciaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\FornecedorRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\AjusteProduto.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\AjusteFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\ParcelaFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CstService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\RegimeTributario.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\PessoaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\UsuarioController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\HomeController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Estado.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Produto.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\PagamentoTipoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\EmpresaController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Pais.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\cartao\MaquinaCartaoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Recebimento.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\PagarTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\ProdutoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\GrupoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\xml\nfe\ConversorXmlNfe.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CstCsosnRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\TipoAmbienteServer.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\TituloTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\AjusteProdutoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\EmpresaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\PagarParcelaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\utilitarios\DataAtual.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TributacaoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\TransferenciaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\EnderecoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\BancoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Cst.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Usuario.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\FornecedorFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\ImagemProdutoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CstCsosnService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Ajuste.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Venda.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\PermissoesService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\VendaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\NotaFiscalRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\AjusteService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\ajuste\AjusteStatus.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\TransferenciaController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\RecebimentoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\NotaFiscalFinalidade.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\CartaoLancamentoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Tributacao.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\CstIpiService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CfopRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\VendaFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\security\LoginUserDatailsService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\PermissoesRespository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\NotaFiscalItemImpostoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\PagarController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\VendaController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\NotaFiscalItemController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\relatorios\VendaRelatorioController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\PagamentoTipoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\VendaProduto.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\TelefoneTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Receber.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Empresa.java
