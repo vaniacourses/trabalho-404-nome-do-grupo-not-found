@@ -525,7 +525,7 @@ git merge origin/test/vinicius
 
 ---
 
-**Data da Entrega 9**: Julho 2025  
+**Data da Entrega 2**: 9 de Julho 2025  
 **Projeto**: Qualidade e Teste de Software  
 **Grupo**: 404 Nome do Grupo Not Found
 
