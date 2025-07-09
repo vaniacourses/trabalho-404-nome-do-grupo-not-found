@@ -191,6 +191,13 @@
 			<artifactId>javax.activation</artifactId>
 			<version>1.2.0</version>
 		</dependency>
+		
+		<!-- Force Javassist version compatible with Java 17 -->
+		<dependency>
+			<groupId>org.javassist</groupId>
+			<artifactId>javassist</artifactId>
+			<version>3.29.2-GA</version>
+		</dependency>
  </dependencies>
 
 	<build>
@@ -261,7 +268,7 @@
 				<configuration>
 					<useSystemClassLoader>false</useSystemClassLoader>
 					<forkMode>once</forkMode>
-					<argLine>-Dfile.encoding=UTF-8 --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED</argLine>
+					<argLine>-Dfile.encoding=UTF-8 --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED</argLine>
 					<includes>
 						<include>**/*Test.java</include>
 						<include>**/*Tests.java</include>

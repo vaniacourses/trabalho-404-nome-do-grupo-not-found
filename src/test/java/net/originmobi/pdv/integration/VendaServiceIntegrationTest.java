@@ -6,15 +6,20 @@ import net.originmobi.pdv.model.Venda;
 import net.originmobi.pdv.repository.UsuarioRepository;
 import net.originmobi.pdv.repository.VendaRepository;
 import net.originmobi.pdv.service.VendaService;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.Timestamp;
+import java.util.Collections;
 
 import static org.junit.Assert.*;
 
@@ -32,6 +37,18 @@ public class VendaServiceIntegrationTest {
 
     @Autowired
     private UsuarioRepository usuarioRepository;
+
+    @Before
+    public void setUp() {
+        // Configura um contexto de autenticação para os testes
+        UsernamePasswordAuthenticationToken authentication = 
+            new UsernamePasswordAuthenticationToken(
+                "testuser", 
+                "password", 
+                Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER"))
+            );
+        SecurityContextHolder.getContext().setAuthentication(authentication);
+    }
 
     @Test
     public void testAbreVenda_IntegracaoCompleta() {

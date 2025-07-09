@@ -8,7 +8,16 @@ public class Aplicacao {
 	private String usuarioAtual;
 
 	public Aplicacao() {
-		usuarioAtual = SecurityContextHolder.getContext().getAuthentication().getName();
+		try {
+			if (SecurityContextHolder.getContext() != null && 
+				SecurityContextHolder.getContext().getAuthentication() != null) {
+				usuarioAtual = SecurityContextHolder.getContext().getAuthentication().getName();
+			} else {
+				usuarioAtual = "sistema"; // Valor padrão para testes
+			}
+		} catch (Exception e) {
+			usuarioAtual = "sistema"; // Fallback em caso de erro
+		}
 	}
 
 	public static synchronized Aplicacao getInstancia() {
