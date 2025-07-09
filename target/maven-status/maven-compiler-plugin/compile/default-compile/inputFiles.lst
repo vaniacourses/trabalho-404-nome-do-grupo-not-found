@@ -1,220 +1,220 @@
-/app/src/main/java/net/originmobi/pdv/service/CategoriaService.java
-/app/src/main/java/net/originmobi/pdv/service/PessoaService.java
-/app/src/main/java/net/originmobi/pdv/repository/TituloRepository.java
-/app/src/main/java/net/originmobi/pdv/model/AjusteProduto.java
-/app/src/main/java/net/originmobi/pdv/repository/PessoaRepository.java
-/app/src/main/java/net/originmobi/pdv/controller/HomeController.java
-/app/src/main/java/net/originmobi/pdv/controller/RecebimentoController.java
-/app/src/main/java/net/originmobi/pdv/model/Receber.java
-/app/src/main/java/net/originmobi/pdv/model/PagarParcela.java
-/app/src/main/java/net/originmobi/pdv/relatorios/CaixaRelatorioController.java
-/app/src/main/java/net/originmobi/pdv/repository/CaixaRepository.java
-/app/src/main/java/net/originmobi/pdv/repository/notafiscal/ModBcIcmsRepository.java
-/app/src/main/java/net/originmobi/pdv/controller/VendaController.java
-/app/src/main/java/net/originmobi/pdv/repository/PagarTipoRepository.java
-/app/src/main/java/net/originmobi/pdv/repository/ImagemProdutoRepository.java
-/app/src/main/java/net/originmobi/pdv/service/notafiscal/NotaFiscalService.java
-/app/src/main/java/net/originmobi/pdv/repository/PagarRepository.java
-/app/src/main/java/net/originmobi/pdv/security/SecurityConfig.java
-/app/src/main/java/net/originmobi/pdv/model/NotaFiscalTotais.java
-/app/src/main/java/net/originmobi/pdv/filter/ReceberFilter.java
-/app/src/main/java/net/originmobi/pdv/repository/PagarParcelaRespository.java
-/app/src/main/java/net/originmobi/pdv/repository/cartao/MaquinaCartaoRepository.java
-/app/src/main/java/net/originmobi/pdv/service/UsuarioService.java
-/app/src/main/java/net/originmobi/pdv/security/UsuarioSistema.java
-/app/src/main/java/net/originmobi/pdv/service/CfopService.java
-/app/src/main/java/net/originmobi/pdv/service/CidadeService.java
-/app/src/main/java/net/originmobi/pdv/model/Endereco.java
-/app/src/main/java/net/originmobi/pdv/repository/RegimeTributarioRepository.java
-/app/src/main/java/net/originmobi/pdv/repository/AjusteProdutoRepository.java
-/app/src/main/java/net/originmobi/pdv/service/CaixaService.java
-/app/src/main/java/net/originmobi/pdv/service/TributacaoRegraService.java
-/app/src/main/java/net/originmobi/pdv/service/PagarService.java
-/app/src/main/java/net/originmobi/pdv/model/Categoria.java
-/app/src/main/java/net/originmobi/pdv/model/Usuario.java
-/app/src/main/java/net/originmobi/pdv/service/TributacaoService.java
-/app/src/main/java/net/originmobi/pdv/model/TipoAmbiente.java
-/app/src/main/java/net/originmobi/pdv/service/ParcelaService.java
-/app/src/main/java/net/originmobi/pdv/model/Caixa.java
-/app/src/main/java/net/originmobi/pdv/controller/UsuarioController.java
-/app/src/main/java/net/originmobi/pdv/controller/BancoController.java
-/app/src/main/java/net/originmobi/pdv/xml/nfe/GeraXmlNfe.java
-/app/src/main/java/net/originmobi/pdv/controller/GrupoController.java
-/app/src/main/java/net/originmobi/pdv/service/notafiscal/NotaFiscalItemService.java
-/app/src/main/java/net/originmobi/pdv/repository/EmpresaRepository.java
-/app/src/main/java/net/originmobi/pdv/controller/RelatorioController.java
-/app/src/main/java/net/originmobi/pdv/repository/RecebimentoParcelaRepository.java
-/app/src/main/java/net/originmobi/pdv/enumerado/caixa/TipoLancamento.java
-/app/src/main/java/net/originmobi/pdv/controller/ImagemProdutoController.java
-/app/src/main/java/net/originmobi/pdv/repository/notafiscal/NotaFiscalRepository.java
-/app/src/main/java/net/originmobi/pdv/service/PagarTipoService.java
-/app/src/main/java/net/originmobi/pdv/model/TributacaoRegra.java
-/app/src/main/java/net/originmobi/pdv/controller/MaquinaCartaoController.java
-/app/src/main/java/net/originmobi/pdv/model/Fornecedor.java
-/app/src/main/java/net/originmobi/pdv/service/CstService.java
-/app/src/main/java/net/originmobi/pdv/repository/notafiscal/NotaFiscalItemImpostoRepository.java
-/app/src/main/java/net/originmobi/pdv/model/ModBcIcms.java
-/app/src/main/java/net/originmobi/pdv/repository/VendaProdutosRepository.java
-/app/src/main/java/net/originmobi/pdv/controller/FornecedorController.java
-/app/src/main/java/net/originmobi/pdv/service/FornecedorService.java
-/app/src/main/java/net/originmobi/pdv/service/PermissoesService.java
-/app/src/main/java/net/originmobi/pdv/model/cartao/CartaoLancamento.java
-/app/src/main/java/net/originmobi/pdv/repository/TributacaoRepository.java
-/app/src/main/java/net/originmobi/pdv/repository/notafiscal/NotaFiscalTotaisRepository.java
-/app/src/main/java/net/originmobi/pdv/repository/notafiscal/NotaFiscalItemRepository.java
-/app/src/main/java/net/originmobi/pdv/model/Pais.java
-/app/src/main/java/net/originmobi/pdv/service/notafiscal/ModBcIcmsService.java
-/app/src/main/java/net/originmobi/pdv/service/ReceberService.java
-/app/src/main/java/net/originmobi/pdv/security/LoginUserDatailsService.java
-/app/src/main/java/net/originmobi/pdv/filter/CartaoFilter.java
-/app/src/main/java/net/originmobi/pdv/enumerado/notafiscal/NotaFiscalTipo.java
-/app/src/main/java/net/originmobi/pdv/enumerado/produto/ProdutoBalanca.java
-/app/src/main/java/net/originmobi/pdv/model/NotaFiscalItemImposto.java
-/app/src/main/java/net/originmobi/pdv/repository/CstRepository.java
-/app/src/main/java/net/originmobi/pdv/service/TipoAmbienteServer.java
-/app/src/main/java/net/originmobi/pdv/controller/PagarController.java
-/app/src/main/java/net/originmobi/pdv/model/Produto.java
-/app/src/main/java/net/originmobi/pdv/controller/PagamentoTipoController.java
-/app/src/main/java/net/originmobi/pdv/repository/GrupoRepository.java
-/app/src/main/java/net/originmobi/pdv/model/cartao/MaquinaCartao.java
-/app/src/main/java/net/originmobi/pdv/model/CaixaLancamento.java
-/app/src/main/java/net/originmobi/pdv/service/AjusteProdutoService.java
-/app/src/main/java/net/originmobi/pdv/controller/ReceberController.java
-/app/src/main/java/net/originmobi/pdv/service/RecebimentoParcelaService.java
-/app/src/main/java/net/originmobi/pdv/model/Pessoa.java
-/app/src/main/java/net/originmobi/pdv/model/GrupoUsuario.java
-/app/src/main/java/net/originmobi/pdv/repository/ParcelaRepository.java
-/app/src/main/java/net/originmobi/pdv/controller/CategoriaController.java
-/app/src/main/java/net/originmobi/pdv/model/NotaFiscalFinalidade.java
-/app/src/main/java/net/originmobi/pdv/service/VendaProdutoService.java
-/app/src/main/java/net/originmobi/pdv/model/Telefone.java
-/app/src/main/java/net/originmobi/pdv/model/RecebimentoParcela.java
-/app/src/main/java/net/originmobi/pdv/service/EnderecoService.java
-/app/src/main/java/net/originmobi/pdv/controller/CartaoLancamentoController.java
-/app/src/main/java/net/originmobi/pdv/enumerado/PessoaTipo.java
-/app/src/main/java/net/originmobi/pdv/filter/PessoaFilter.java
-/app/src/main/java/net/originmobi/pdv/service/AjusteService.java
-/app/src/main/java/net/originmobi/pdv/enumerado/TituloTipo.java
-/app/src/main/java/net/originmobi/pdv/repository/notafiscal/FreteTipoRepository.java
-/app/src/main/java/net/originmobi/pdv/model/CstCsosn.java
-/app/src/main/java/net/originmobi/pdv/controller/TributacaoRegraController.java
-/app/src/main/java/net/originmobi/pdv/model/Tributacao.java
-/app/src/main/java/net/originmobi/pdv/repository/GrupoUsuarioRepository.java
-/app/src/main/java/net/originmobi/pdv/service/RecebimentoService.java
-/app/src/main/java/net/originmobi/pdv/model/Cidade.java
-/app/src/main/java/net/originmobi/pdv/utilitarios/ConexaoJDBC.java
-/app/src/main/java/net/originmobi/pdv/repository/TituloTipoRepository.java
-/app/src/main/java/net/originmobi/pdv/model/VendaProduto.java
-/app/src/main/java/net/originmobi/pdv/xml/nfe/AssinaXML.java
-/app/src/main/java/net/originmobi/pdv/service/TelefoneService.java
-/app/src/main/java/net/originmobi/pdv/model/CFOP.java
-/app/src/main/java/net/originmobi/pdv/repository/TributacaoRegraRepository.java
-/app/src/main/java/net/originmobi/pdv/service/cartao/MaquinaCartaoService.java
-/app/src/main/java/net/originmobi/pdv/repository/CstCsosnRepository.java
-/app/src/main/java/net/originmobi/pdv/repository/ReceberRepository.java
-/app/src/main/java/net/originmobi/pdv/model/FreteTipo.java
-/app/src/main/java/net/originmobi/pdv/model/Venda.java
-/app/src/main/java/net/originmobi/pdv/controller/GrupoUsuarioController.java
-/app/src/main/java/net/originmobi/pdv/filter/ClienteFilter.java
-/app/src/main/java/net/originmobi/pdv/service/VendaService.java
-/app/src/main/java/net/originmobi/pdv/repository/EstadoRepository.java
-/app/src/main/java/net/originmobi/pdv/service/notafiscal/NotaFiscalFinalidadeServer.java
-/app/src/main/java/net/originmobi/pdv/model/Pagar.java
-/app/src/main/java/net/originmobi/pdv/service/TransferenciaService.java
-/app/src/main/java/net/originmobi/pdv/enumerado/cartao/CartaoSituacao.java
-/app/src/main/java/net/originmobi/pdv/model/PagarTipo.java
-/app/src/main/java/net/originmobi/pdv/service/TituloTipoService.java
-/app/src/main/java/net/originmobi/pdv/service/EmpresaService.java
-/app/src/main/java/net/originmobi/pdv/service/notafiscal/NotaFiscalItemImpostoService.java
-/app/src/main/java/net/originmobi/pdv/repository/CaixaLancamentoRepository.java
-/app/src/main/java/net/originmobi/pdv/singleton/Aplicacao.java
-/app/src/main/java/net/originmobi/pdv/repository/UsuarioRepository.java
-/app/src/main/java/net/originmobi/pdv/model/CstIPI.java
-/app/src/main/java/net/originmobi/pdv/model/Empresa.java
-/app/src/main/java/net/originmobi/pdv/repository/TelefoneRepository.java
-/app/src/main/java/net/originmobi/pdv/repository/PagamentoTipoRespository.java
-/app/src/main/java/net/originmobi/pdv/service/notafiscal/CstIpiService.java
-/app/src/main/java/net/originmobi/pdv/service/PagamentoTipoService.java
-/app/src/main/java/net/originmobi/pdv/repository/cartao/CartaoLancamentoRepository.java
-/app/src/main/java/net/originmobi/pdv/repository/notafiscal/CstIpiRepository.java
-/app/src/main/java/net/originmobi/pdv/model/Permissoes.java
-/app/src/main/java/net/originmobi/pdv/controller/TituloService.java
-/app/src/main/java/net/originmobi/pdv/service/RegimeTributarioService.java
-/app/src/main/java/net/originmobi/pdv/xml/nfe/TesteAssinatura.java
-/app/src/main/java/net/originmobi/pdv/repository/ProdutoRepository.java
-/app/src/main/java/net/originmobi/pdv/filter/FornecedorFilter.java
-/app/src/main/java/net/originmobi/pdv/repository/PermissoesRespository.java
-/app/src/main/java/net/originmobi/pdv/model/ImagemProduto.java
-/app/src/main/java/net/originmobi/pdv/repository/AjusteRepository.java
-/app/src/main/java/net/originmobi/pdv/repository/notafiscal/NotaFiscalFinalidadeRepository.java
-/app/src/main/java/net/originmobi/pdv/service/PagarParcelaService.java
-/app/src/main/java/net/originmobi/pdv/filter/ParcelaFilter.java
-/app/src/main/java/net/originmobi/pdv/model/Recebimento.java
-/app/src/main/java/net/originmobi/pdv/filter/ProdutoFilter.java
-/app/src/main/java/net/originmobi/pdv/model/RegimeTributario.java
-/app/src/main/java/net/originmobi/pdv/service/ProdutoService.java
-/app/src/main/java/net/originmobi/pdv/service/GrupoService.java
-/app/src/main/java/net/originmobi/pdv/service/GrupoUsuarioService.java
-/app/src/main/java/net/originmobi/pdv/enumerado/ajuste/AjusteStatus.java
-/app/src/main/java/net/originmobi/pdv/controller/NotaFiscalItemController.java
-/app/src/main/java/net/originmobi/pdv/service/notafiscal/NotaFiscalTotaisServer.java
-/app/src/main/java/net/originmobi/pdv/controller/TituloController.java
-/app/src/main/java/net/originmobi/pdv/controller/TransferenciaController.java
-/app/src/main/java/net/originmobi/pdv/service/EstadoService.java
-/app/src/main/java/net/originmobi/pdv/filter/BancoFilter.java
-/app/src/main/java/net/originmobi/pdv/enumerado/produto/ProdutoSubstTributaria.java
-/app/src/main/java/net/originmobi/pdv/repository/TransferenciaRepository.java
-/app/src/main/java/net/originmobi/pdv/model/Grupo.java
-/app/src/main/java/net/originmobi/pdv/model/TituloTipo.java
-/app/src/main/java/net/originmobi/pdv/xml/nfe/ConversorXmlNfe.java
-/app/src/main/java/net/originmobi/pdv/controller/AjusteController.java
-/app/src/main/java/net/originmobi/pdv/repository/EnderecoRepository.java
-/app/src/main/java/net/originmobi/pdv/service/CaixaLancamentoService.java
-/app/src/main/java/net/originmobi/pdv/model/Ajuste.java
-/app/src/main/java/net/originmobi/pdv/model/ProdutoEstoque.java
-/app/src/main/java/net/originmobi/pdv/filter/PagarParcelaFilter.java
-/app/src/main/java/net/originmobi/pdv/repository/CidadeRepository.java
-/app/src/main/java/net/originmobi/pdv/filter/CaixaFilter.java
-/app/src/main/java/net/originmobi/pdv/enumerado/TelefoneTipo.java
-/app/src/main/java/net/originmobi/pdv/enumerado/produto/ProdutoVendavel.java
-/app/src/main/java/net/originmobi/pdv/filter/VendaFilter.java
-/app/src/main/java/net/originmobi/pdv/controller/ProdutoController.java
-/app/src/main/java/net/originmobi/pdv/service/ImagemProdutoService.java
-/app/src/main/java/net/originmobi/pdv/repository/CategoriaRepository.java
-/app/src/main/java/net/originmobi/pdv/controller/EmpresaController.java
-/app/src/main/java/net/originmobi/pdv/enumerado/produto/ProdutoControleEstoque.java
-/app/src/main/java/net/originmobi/pdv/enumerado/VendaSituacao.java
-/app/src/main/java/net/originmobi/pdv/model/Titulo.java
-/app/src/main/java/net/originmobi/pdv/utilitarios/DataAtual.java
-/app/src/main/java/net/originmobi/pdv/enumerado/Ativo.java
-/app/src/main/java/net/originmobi/pdv/repository/CfopRepository.java
-/app/src/main/java/net/originmobi/pdv/repository/FornecedorRepository.java
-/app/src/main/java/net/originmobi/pdv/model/PagamentoTipo.java
-/app/src/main/java/net/originmobi/pdv/controller/TributacaoController.java
-/app/src/main/java/net/originmobi/pdv/repository/VendaRepository.java
-/app/src/main/java/net/originmobi/pdv/service/EmpresaParametrosService.java
-/app/src/main/java/net/originmobi/pdv/service/cartao/CartaoLancamentoService.java
-/app/src/main/java/net/originmobi/pdv/model/NotaFiscalItem.java
-/app/src/main/java/net/originmobi/pdv/PdvApplication.java
-/app/src/main/java/net/originmobi/pdv/controller/NotaFiscalController.java
-/app/src/main/java/net/originmobi/pdv/repository/EmpresaParametrosRepository.java
-/app/src/main/java/net/originmobi/pdv/relatorios/VendaRelatorioController.java
-/app/src/main/java/net/originmobi/pdv/model/NotaFiscal.java
-/app/src/main/java/net/originmobi/pdv/repository/TipoAmbienteRepository.java
-/app/src/main/java/net/originmobi/pdv/controller/PessoaController.java
-/app/src/main/java/net/originmobi/pdv/enumerado/cartao/CartaoTipo.java
-/app/src/main/java/net/originmobi/pdv/model/Estado.java
-/app/src/main/java/net/originmobi/pdv/enumerado/EntradaSaida.java
-/app/src/main/java/net/originmobi/pdv/enumerado/caixa/CaixaTipo.java
-/app/src/main/java/net/originmobi/pdv/model/Cst.java
-/app/src/main/java/net/originmobi/pdv/repository/RecebimentoRepository.java
-/app/src/main/java/net/originmobi/pdv/filter/AjusteFilter.java
-/app/src/main/java/net/originmobi/pdv/service/notafiscal/FreteTipoService.java
-/app/src/main/java/net/originmobi/pdv/controller/CaixaController.java
-/app/src/main/java/net/originmobi/pdv/enumerado/EnumeradoTitulos.java
-/app/src/main/java/net/originmobi/pdv/model/EmpresaParametro.java
-/app/src/main/java/net/originmobi/pdv/relatorios/GerarRelatorio.java
-/app/src/main/java/net/originmobi/pdv/service/CstCsosnService.java
-/app/src/main/java/net/originmobi/pdv/model/Transferencia.java
-/app/src/main/java/net/originmobi/pdv/enumerado/caixa/EstiloLancamento.java
-/app/src/main/java/net/originmobi/pdv/model/Parcela.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\TributacaoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\EstadoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\relatorios\CaixaRelatorioController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\GrupoUsuarioService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\Ativo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\TituloTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\RecebimentoParcelaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CidadeRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Endereco.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\ModBcIcmsService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\RecebimentoParcela.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\PessoaTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\NotaFiscalItemImpostoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\ModBcIcms.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\GrupoUsuarioController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\PessoaController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\ReceberFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\TituloService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\ProdutoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\FornecedorService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\NotaFiscalTotaisServer.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\CartaoFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\RecebimentoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CaixaLancamentoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\PessoaFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\PagarTipoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\ProdutoEstoque.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\CaixaFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\PagamentoTipoRespository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CategoriaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\ImagemProduto.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\PdvApplication.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\ReceberService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TipoAmbienteRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\produto\ProdutoBalanca.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Titulo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\RecebimentoParcelaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\VendaProdutosRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\EnumeradoTitulos.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\NotaFiscalItemRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\PagarParcelaFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\EmpresaParametrosService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\utilitarios\ConexaoJDBC.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\xml\nfe\AssinaXML.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Parcela.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\cartao\CartaoSituacao.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TelefoneRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CategoriaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\UsuarioRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\ProdutoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\RecebimentoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\ModBcIcmsRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\RelatorioController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\NotaFiscalController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\xml\nfe\TesteAssinatura.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\PagarTipoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\xml\nfe\GeraXmlNfe.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\produto\ProdutoVendavel.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CaixaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CaixaLancamentoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Pessoa.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\relatorios\GerarRelatorio.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\AjusteProdutoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\ImagemProdutoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\CstIPI.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\UsuarioService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\GrupoUsuarioRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Cidade.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\FreteTipoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\CategoriaController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\CaixaController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\ReceberController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TituloRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\PagarParcela.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\MaquinaCartaoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\TelefoneService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\EmpresaParametrosRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\PessoaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\TituloTipoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Telefone.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\cartao\CartaoLancamento.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Grupo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\VendaProdutoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\NotaFiscalTotais.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\cartao\MaquinaCartaoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\NotaFiscalTotaisRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\NotaFiscalItem.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\EstadoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\TributacaoRegraController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\VendaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Permissoes.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CstRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\ParcelaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\security\SecurityConfig.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\FreteTipoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Caixa.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Categoria.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\caixa\EstiloLancamento.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\notafiscal\NotaFiscalTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\singleton\Aplicacao.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\VendaSituacao.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CidadeService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\TipoAmbiente.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\caixa\CaixaTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\CstCsosn.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\caixa\TipoLancamento.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\AjusteRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\EmpresaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\PagarParcelaRespository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\TributacaoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TributacaoRegraRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\ClienteFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\ImagemProdutoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\EntradaSaida.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\PagarService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\cartao\MaquinaCartao.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\TituloController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\EmpresaParametro.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\CFOP.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\ReceberRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\FreteTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\PagamentoTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\GrupoUsuario.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CaixaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Pagar.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\TributacaoRegra.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\AjusteController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Transferencia.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\CstIpiRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\TributacaoRegraService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\NotaFiscalFinalidadeRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\EnderecoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\NotaFiscalFinalidadeServer.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\RegimeTributarioService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\GrupoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\RegimeTributarioRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\produto\ProdutoSubstTributaria.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\FornecedorController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\cartao\CartaoLancamentoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\ParcelaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CfopService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\BancoFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\cartao\CartaoLancamentoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\NotaFiscalItemService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\GrupoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\PagarRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\NotaFiscal.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\CaixaLancamento.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Fornecedor.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\cartao\CartaoTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\produto\ProdutoControleEstoque.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\NotaFiscalItemImposto.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TituloTipoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\NotaFiscalService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\ProdutoFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\security\UsuarioSistema.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TransferenciaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\FornecedorRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\AjusteProduto.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\AjusteFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\ParcelaFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CstService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\RegimeTributario.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\PessoaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\UsuarioController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\HomeController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Estado.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Produto.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\PagamentoTipoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\EmpresaController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Pais.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\cartao\MaquinaCartaoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Recebimento.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\PagarTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\ProdutoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\GrupoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\xml\nfe\ConversorXmlNfe.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CstCsosnRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\TipoAmbienteServer.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\TituloTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\AjusteProdutoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\EmpresaRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\PagarParcelaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\utilitarios\DataAtual.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\TributacaoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\TransferenciaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\EnderecoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\BancoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Cst.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Usuario.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\FornecedorFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\ImagemProdutoService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\CstCsosnService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Ajuste.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Venda.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\PermissoesService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\VendaService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\NotaFiscalRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\AjusteService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\ajuste\AjusteStatus.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\TransferenciaController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\RecebimentoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\NotaFiscalFinalidade.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\CartaoLancamentoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Tributacao.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\service\notafiscal\CstIpiService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\CfopRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\filter\VendaFilter.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\security\LoginUserDatailsService.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\PermissoesRespository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\repository\notafiscal\NotaFiscalItemImpostoRepository.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\PagarController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\VendaController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\NotaFiscalItemController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\relatorios\VendaRelatorioController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\controller\PagamentoTipoController.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\VendaProduto.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\enumerado\TelefoneTipo.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Receber.java
+D:\Faculdade\Qualidade e Teste\trabalho-404-nome-do-grupo-not-found\src\main\java\net\originmobi\pdv\model\Empresa.java

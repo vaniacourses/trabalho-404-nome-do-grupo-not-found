@@ -1,2 +1,7 @@
-net/originmobi/pdv/UserManagementTests.class
-net/originmobi/pdv/PdvApplicationTests.class
+net\originmobi\pdv\UserManagementTests.class
+net\originmobi\pdv\PdvApplicationTests.class
+net\originmobi\pdv\service\PagarParcelaServiceTest.class
+net\originmobi\pdv\config\TestConfig.class
+net\originmobi\pdv\selenium\LoginSeleniumTest.class
+net\originmobi\pdv\integration\VendaServiceIntegrationTest.class
+net\originmobi\pdv\service\GrupoUsuarioServiceTest.class
