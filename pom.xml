@@ -46,25 +46,25 @@
 		<dependency>
 		  <groupId>org.seleniumhq.selenium</groupId>
 		  <artifactId>selenium-java</artifactId>
-		  <version>4.15.0</version>
+		  <version>3.141.59</version>
 		  <scope>test</scope>
 		</dependency>
 		<dependency>
 		  <groupId>org.seleniumhq.selenium</groupId>
 		  <artifactId>selenium-api</artifactId>
-		  <version>4.15.0</version>
+		  <version>3.141.59</version>
 		  <scope>test</scope>
 		</dependency>
 		<dependency>
 		  <groupId>org.seleniumhq.selenium</groupId>
 		  <artifactId>selenium-chrome-driver</artifactId>
-		  <version>4.15.0</version>
+		  <version>3.141.59</version>
 		  <scope>test</scope>
 		</dependency>
 		<dependency>
 		  <groupId>org.seleniumhq.selenium</groupId>
 		  <artifactId>selenium-remote-driver</artifactId>
-		  <version>4.15.0</version>
+		  <version>3.141.59</version>
 		  <scope>test</scope>
 		</dependency>
 	  </dependencies>
@@ -137,13 +137,13 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.15.0</version>
+			<version>3.141.59</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>5.5.3</version>
+			<version>4.4.3</version>
 			<scope>test</scope>
 		</dependency>
 		
@@ -299,13 +299,47 @@
 				<configuration>
 					<useSystemClassLoader>false</useSystemClassLoader>
 					<forkMode>once</forkMode>
-					<argLine>-Dfile.encoding=UTF-8</argLine>
+					<argLine>-Dfile.encoding=UTF-8 -Dspring.profiles.active=test</argLine>
 					<includes>
 						<include>**/*Test.java</include>
 						<include>**/*Tests.java</include>
 						<include>**/*IT.java</include>
 					</includes>
+					<systemProperties>
+						<property>
+							<name>spring.profiles.active</name>
+							<value>test</value>
+						</property>
+					</systemProperties>
 				</configuration>
+			</plugin>
+			
+			<!-- Plugin para testes de integração (Failsafe) -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>2.22.2</version>
+				<configuration>
+					<argLine>-Dfile.encoding=UTF-8 -Dspring.profiles.active=test</argLine>
+					<includes>
+						<include>**/*SeleniumTest.java</include>
+						<include>**/*IntegrationTest.java</include>
+					</includes>
+					<systemProperties>
+						<property>
+							<name>spring.profiles.active</name>
+							<value>test</value>
+						</property>
+					</systemProperties>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+							<goal>verify</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
