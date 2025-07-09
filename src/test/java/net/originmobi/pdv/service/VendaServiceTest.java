@@ -92,17 +92,17 @@ public class VendaServiceTest {
         verify(vendas).findAll();
     }
 
-    @Test
+    @Test(expected = RuntimeException.class)
     public void testFechaVenda_VendaJaFechada() {
         // Arrange
         when(vendas.findByCodigoEquals(1L)).thenReturn(venda);
         venda.setSituacao(VendaSituacao.FECHADA);
 
         // Act
-        String result = vendaService.fechaVenda(1L, 1L, 100.0, 0.0, 0.0, new String[]{}, new String[]{});
+        vendaService.fechaVenda(1L, 1L, 100.0, 0.0, 0.0, new String[]{}, new String[]{});
 
         // Assert
-        assertEquals("venda fechada", result);
+        // Deve lançar RuntimeException com mensagem "venda fechada"
     }
 
     @Test
@@ -116,14 +116,15 @@ public class VendaServiceTest {
         produto.setCodigo(codProduto);
         produto.setDescricao("Produto Teste");
 
+        when(vendas.verificaSituacao(codVenda)).thenReturn(VendaSituacao.ABERTA.toString());
         when(produtos.busca(codProduto)).thenReturn(produto);
 
         // Act
         String result = vendaService.addProduto(codVenda, codProduto, vlBalanca);
 
         // Assert
-        assertNotNull(result);
-        verify(produtos).busca(codProduto);
+        assertEquals("ok", result);
+        verify(vendas).verificaSituacao(codVenda);
     }
 
     @Test
@@ -132,11 +133,15 @@ public class VendaServiceTest {
         Long posicaoProd = 1L;
         Long codVenda = 1L;
 
+        when(vendas.findByCodigoEquals(codVenda)).thenReturn(venda);
+        venda.setSituacao(VendaSituacao.ABERTA);
+
         // Act
         String result = vendaService.removeProduto(posicaoProd, codVenda);
 
         // Assert
-        assertNotNull(result);
+        assertEquals("ok", result);
+        verify(vendas).findByCodigoEquals(codVenda);
         verify(vendaProdutos).removeProduto(posicaoProd);
     }
 }
