@@ -34,11 +34,9 @@ public class CaixaServiceTest {
     @BeforeEach
     public void setup() {
         MockitoAnnotations.openMocks(this);
-        // Simula o singleton para não dar erro no teste
         Aplicacao.getInstancia().setUsuarioAtual("usuarioTeste");
     }
 
-    // Teste 1: Abertura de caixa com valor negativo
     @Test
     public void testCadastroCaixaComValorNegativo() {
         Caixa caixa = new Caixa();
@@ -54,7 +52,6 @@ public class CaixaServiceTest {
         assertEquals("Valor informado é inválido", exception.getMessage());
     }
 
-    // Teste 2: Verificação de caixa aberto
     @Test
     public void testCaixaIsAberto() {
         when(caixaRepository.caixaAberto()).thenReturn(Optional.of(new Caixa()));
@@ -63,11 +60,10 @@ public class CaixaServiceTest {
         assertTrue(isAberto);
     }
 
-    // Teste 3: Fechamento de caixa com senha incorreta
     @Test
     public void testFechaCaixaSenhaIncorreta() {
         Usuario usuario = new Usuario();
-        usuario.setSenha("$2a$10$7"); // senha: "senha123"
+        usuario.setSenha("$2a$10$7"); 
 
         when(usuarioService.buscaUsuario(anyString())).thenReturn(usuario);
 
@@ -76,7 +72,6 @@ public class CaixaServiceTest {
         assertEquals("Senha incorreta, favor verifique", resposta);
     }
 
-    // Teste 4: Definir descrição padrão para cofre sem descrição
     @Test
     public void testDescricaoPadraoParaCofre() {
         Caixa caixa = new Caixa();

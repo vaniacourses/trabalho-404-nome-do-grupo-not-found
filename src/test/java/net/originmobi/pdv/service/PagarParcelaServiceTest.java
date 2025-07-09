@@ -88,7 +88,7 @@ public class PagarParcelaServiceTest {
             service.cadastrar(vltotal, vlrestante, quitado, cadastro, vencimento, pagar);
             fail("Deveria lançar RuntimeException");
         } catch (RuntimeException e) {
-            // esperado
+            
         }
         verify(parcelas, times(1)).geraParcela(anyDouble(), anyDouble(), anyDouble(), anyDouble(), anyDouble(), anyInt(), any(Timestamp.class), any(LocalDate.class), any(Pagar.class));
     }

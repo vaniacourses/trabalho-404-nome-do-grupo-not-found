@@ -38,7 +38,6 @@ public class ImagemProdutoService {
 
 		Random vlAleatorio = new Random();
 
-		// aqui pego o contexto da aplicação
 		try {
 			contexto = new File(".").getCanonicalPath();
 		} catch (IOException e1) {
@@ -46,10 +45,8 @@ public class ImagemProdutoService {
 			return "erro ao pegar o contexto da aplicação";
 		}
 
-		// defino o diretorio onde será salva a imagem
 		DIRETORIO = Paths.get(contexto.toString().replace("/bin", "") + "/webapps/pdv/WEB-INF/classes/static/imagens-produtos/");
 
-		// altero o nome da imagem e o seu tipo para jpg
 		String imagemNovaDescricao = file.getOriginalFilename().replaceAll(file.getOriginalFilename(),
 				"imagem" + "-" + vlAleatorio.nextInt() + ".jpg");
 
