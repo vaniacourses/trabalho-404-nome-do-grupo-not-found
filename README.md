@@ -2,7 +2,7 @@
 
 Sistema de ERP web desenvolvido em Java com Spring Framework para gerenciamento de vendas, estoque e fluxo financeiro.
 
-## 📊 Status Atual - Entrega 2 (Julho 2025)
+## 📊 Status Atual - Entrega 9 (Julho 2025)
 
 ### ✅ Concluído
 - [x] **Merge das branches**: Test/Darah, feature/bruno, test/tales, test/vinicius → main
